@@ -6,7 +6,7 @@ Build a role - playing game part 2 - Constructor functions
 
 Challenge 
 1. Create a new constructor function called Character which
-   takes our data as a paramenter.
+   takes our data as a parameter.
 2. Set up "this" for each of the 5 properties in our objects
    (eg: this.health = data.health).
 
@@ -23,14 +23,11 @@ Challenge
    lines of code at the bottom of the page which invoke that 
    function.
 
-
-
 3. Simplify constructor function 1
 
-/*CHALLENGE
+CHALLENGE
 -Use what you learned in the previous scrim to
 remove the following 5 lines of code
-*/
 
 
 4. Simplify constructor function 2
@@ -48,7 +45,6 @@ make it so that we just return that literal string of HTML
 - This will break the app. Don't worry!
 
 
-
 6. Fix the broken rendering
 
 CHALLENGE
@@ -56,10 +52,9 @@ CHALLENGE
  - check hint.md if you need a hand 
 
  /* MINI CHALLENGE */
- // 1 Create one render() function that calls both wizard and orc 
- //  so we can control when they render. 
- // 2 call the function.
-
+ 1 Create one render() function that calls both wizard and orc 
+ so we can control when they render. 
+ 2 call the function.
 
 
 7. Amalgamate the objects
@@ -75,7 +70,6 @@ app working.
 
 
 8. Too much code for one file!
-
 
 
 9. Export getDiceRollArray()
